@@ -1,0 +1,6 @@
+lame-*
+lame
+build
+build-*
+local.properties
+env.sh

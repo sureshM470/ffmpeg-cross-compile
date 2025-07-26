@@ -1,0 +1,18 @@
+[host_machine]
+system = 'android'
+cpu_family = '@ANDROID_CPU_FAMILY@'
+cpu = '@ANDROID_CPU@'
+endian = 'little'
+
+[built-in options]
+c_args = ['--sysroot=@ANDROID_SYSROOT@']
+c_link_args = ['--sysroot=@ANDROID_SYSROOT@']
+cpp_args = ['--sysroot=@ANDROID_SYSROOT@']
+cpp_link_args = ['--sysroot=@ANDROID_SYSROOT@']
+
+[binaries]
+c = '@ANDROID_CC@'
+cpp = '@ANDROID_CXX@'
+ar = '@ANDROID_AR@'
+strip = '@ANDROID_STRIP@'
+pkgconfig = 'pkg-config'

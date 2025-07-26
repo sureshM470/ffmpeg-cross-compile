@@ -1,0 +1,21 @@
+[submodule "ffmpeg"]
+	path = ffmpeg
+	url = https://github.com/FFmpeg/FFmpeg.git
+[submodule "x264"]
+	path = x264
+	url = https://code.videolan.org/videolan/x264.git
+[submodule "harfbuzz"]
+	path = harfbuzz
+	url = https://github.com/harfbuzz/harfbuzz.git
+[submodule "freetype"]
+	path = freetype
+	url = https://github.com/freetype/freetype.git
+[submodule "x265"]
+	path = x265
+	url = https://bitbucket.org/multicoreware/x265_git.git
+[submodule "libvpx"]
+	path = libvpx
+	url = https://chromium.googlesource.com/webm/libvpx.git
+[submodule "fdk-aac"]
+	path = fdk-aac
+	url = https://github.com/mstorsjo/fdk-aac.git
